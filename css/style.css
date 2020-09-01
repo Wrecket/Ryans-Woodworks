@@ -73,6 +73,10 @@ a.nav-link:hover {
     font-family: 'Patua One', cursive !important;
 }
 
+.top-class {
+    z-index: 1000 !important;
+}
+
 .bg-black {
     background-color: black;
 }
@@ -242,6 +246,7 @@ textarea {
     .front-logo-box {
         margin-top: 10% !important;
         margin-bottom: 5%;
+        z-index: 99;
     }
     .padder2 {
         height: 150px;
@@ -259,5 +264,8 @@ textarea {
     }
     .footer-logo {
         width: 110px;
+    }
+    li {
+        z-index: 100 !important;
     }
 }
