@@ -1,0 +1,259 @@
+.white {
+    color: white;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.social {
+    width: 30px;
+    height: 30px !important;
+    margin: 1%;
+}
+.social-wrap {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.footer-logo {
+    width: 9%;
+    margin: 1%;
+}
+
+.front-logo-box {
+    margin-top: 3% !important;
+    position: absolute;
+    top: -140px;
+}
+
+.front-logo {
+    width: 200px;
+    margin-bottom: 8%;
+}
+
+.front-image {
+    width: 40%;
+}
+
+.font {
+    font-family: 'Patua One', cursive;
+}
+
+.front-desc {
+    font-size: 1.7rem !important;
+    margin-bottom: 10% !important;
+    
+} 
+
+.front-desc span{
+    font-size: 2.2rem;
+    
+}
+
+.work {
+    margin-bottom: 2%;
+}
+
+.alt-img {
+    width: 100%;
+}
+
+/* navbar */
+a.nav-link:hover {
+    color: rgb(190, 148, 68)!important;
+}
+
+.nav-link {
+    font-family: font-family: 'Patua One', cursive !important;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.btn-outline-grey {
+    outline-color: lightgray !important;
+}
+
+/* containers */
+.black-pad {
+    background-color: black;
+    height: 30px;
+ 
+}
+
+.padder2 {
+    height: 130px;
+}
+
+.footer {
+    width: 100%;
+    height: 120px;
+    background-color: black;
+}
+
+#custom {
+    margin-top: 3% !important;
+}
+
+.big-front {
+    height: 100%;
+}
+
+.bodywrap {
+    position: relative;
+}
+
+.carousel-wrap {
+    width: 100% !important;
+}
+
+.padder {
+    height: 50px;
+}
+
+.col1-wrap {
+    background-color: rgb(248, 248, 248);
+    padding: 5% 2%;
+
+    box-shadow: 1px 10px 10px grey ;
+}
+/* carousel */
+
+.carousel-img {
+    width: 100%;
+}
+
+/* form */
+
+.contact-title {
+    margin-top: 10%;
+}
+
+.contact-text {
+    margin-bottom: 5%;
+}
+
+.contact-box {
+    padding: 0 !important;
+}
+
+#name {
+    margin: 1% .5% 1% 1%;
+}
+
+#email {
+    margin: 1% -1% 1% .5%;
+    outline-color: lightgray;
+}
+
+#name, #email {
+    width: 50%;
+    outline-color: lightgray;
+}
+
+#phone {
+    width: 100%;
+    margin: 1%;
+}
+
+#textarea {
+    width: 100%;
+    margin: 1%;
+}
+
+input {
+    border: 1px solid lightgray; 
+}
+
+textarea {
+    border: 1px solid lightgray; 
+}
+
+.submit-button {
+    width: 100%;
+    margin: -1% 1% 15% 1%;
+    border: none;
+    background-color: rgb(190, 148, 68)!important;
+    height: 50px;
+}
+
+.submit-button:hover {
+    background-color: rgb(228, 164, 47) !important;
+}
+
+/* Gallery */
+.big {
+    width: 400px !important;
+}
+
+.gallery-box img {
+    box-shadow: 0 0 10px 1px lightgray;
+}
+
+.row-grid {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    padding: 0 4px !important;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+ .column-grid {
+    flex: 25% !important;
+    max-width: 25% !important;
+    padding: 0 4px !important;
+  }
+  
+  .column-grid img {
+    margin-top: 8px !important;
+    vertical-align: middle !important;
+    width: 100% !important;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column-grid {
+      flex: 50% !important;
+      max-width: 50% !important;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column-grid {
+      flex: 100% !important;
+      max-width: 100% !important;
+    }
+  }
+
+  @media (max-width: 550px) {
+    .mob-pad {
+        margin-bottom: 15% !important;
+    }
+    .contact-text {
+        margin-bottom: 10%;
+    }
+    .front-logo-box {
+        margin-top: 10% !important;
+        margin-bottom: 5%;
+    }
+    .padder2 {
+        height: 150px;
+    }
+    .navbar-toggler {
+        z-index: 100;
+    }
+    .black-pad {
+        display: none
+    }
+    .front-logo-box {
+        margin-top: 3% !important;
+        position: absolute;
+        top: -80px;
+    }
+    .footer-logo {
+        width: 110px;
+    }
+}

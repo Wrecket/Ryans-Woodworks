@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Peta&family=Patua+One&display=swap" rel="stylesheet">
+    <title>Ryan's Woodworks</title>
+</head>
+<header>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+        <a class="navbar-brand" href="#"><img src="img/rw.png" alt="mini logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Reviews</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+              </ul>
+        
+        </div>
+      </nav>
+      <!-- /nav -->
+      <div class="black-pad"></div>
+</header>
+<body>
+    <div class="container bodywrap">
+    <div class="container text-center front-logo-box">
+        <img class="img-fluid front-logo" src="img/logo3.png" alt="logo>">
+    </div>
+    </div>
+    <div class="padder2"></div>
+    <!-- Contact column -->
+    <div class="container font ">
+        <div class="row justify-content-center">
+            <div class="col-8">
+                <div class="contact-details font text-center">
+                    <h2 class="contact-title font ">CONTACT US</h2>
+                    <p class="contact-text">Contact us using the form below and we aim to respond within a 24-hour period</p>
+                </div>
+              <form class="formbox" action="/action_page.php">
+                <div class="contact-box container-fluid d-flex">
+                    <input placeholder="Your name" class="contactinput" type="text" id="name" name="name">
+                    <input placeholder="Your email" class="contactinput"type="email" id="email" name="email">
+                </div>
+                <div class="contact-box container-fluid">
+                    <input placeholder="Your contact number" type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                </div>
+                <div class="contact-box container-fluid">
+                    <textarea placeholder="Your message..." class="contactinput" id="textarea" name="message" rows="10" cols="30"></textarea><br><br>
+                    <input type="submit" class="submit-button font white" value="SEND MESSAGE">
+                </div>
+              </form>
+            </div>
+          </div>
+      </div>
+    <!-- Contact column -->
+</body>
+<footer>
+    <div class="footer sticky-bottom text-center">
+        <div class="container">
+            <img class="social img-fluid" src="img/twitter-64.png" alt="twitter">
+            <img class="social img-fluid" src="img/instagram-64.png" alt="instagram">
+            <img class="footer-logo" src="img/logo3invert.png" alt="logo">
+            <img class="social img-fluid" src="img/facebook-3-64.png" alt="facebook">
+            <img class="social img-fluid" src="img/mail-64.png" alt="email">
+        </div>
+            
+            
+
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</html>
