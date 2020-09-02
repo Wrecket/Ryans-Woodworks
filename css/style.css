@@ -151,7 +151,7 @@ a.nav-link:hover {
 .top-box {
     background-color: rgba(255, 255, 255, 0.993);
     width: 120% !important;
-    box-shadow: none;
+    box-shadow: 1px 0px 10px grey ;
     padding: 2.5% 80% 1% 1%;
     position: relative;
     margin-left: -120px !important;
@@ -359,6 +359,7 @@ textarea {
         margin-left: 17px !important;
         margin-top: 20%;
         text-align: center;
+        box-shadow: none;
     }
     .work {
         left: 40px;
