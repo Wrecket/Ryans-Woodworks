@@ -210,10 +210,6 @@ a.nav-link:hover {
     background-color: black;
 }
 
-.col-xs-3 {
-    margin: 5%;
-}
-
 #custom {
     margin-top: 3% !important;
 }
@@ -420,5 +416,9 @@ textarea {
     }
     .col-xs-3 {
         margin: 8%;
+    }
+
+    .minsol {
+        margin-right: 20%;
     }
   }

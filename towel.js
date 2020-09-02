@@ -30,7 +30,7 @@ function switchoff2(classname) {
 }
 
 tow1.addEventListener("mouseover", function() {
-    switchOn1(35.00, 37, 13.5, 50, tow1);
+    switchOn1(25.00, 37, 13.5, 50, tow1);
 })
 
 tow1.addEventListener("mouseout", function() {
