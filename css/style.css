@@ -9,6 +9,17 @@ body {
   height: 100%;
 }
 
+.relative {
+    position: relative;
+}
+
+.hammer {
+    position: absolute;
+    width: 50px;
+    bottom: -120px;
+    left: -15px;
+}
+
 .bio-wrap {
     margin-top: 10%;
 }
@@ -33,6 +44,18 @@ body {
 
 }
 
+.detail-cont {
+    position: relative;
+}
+
+.social-cont{
+    width: 70px;
+    margin: 0.5%;
+}
+
+.cont-det {
+    list-style-type: none !important;
+}
 
 .thumb-wrap {
     height: 200px;
@@ -199,6 +222,13 @@ a.nav-link:hover {
     padding: 0 4% 5% 4% !important;
 }
 
+.wrap3 {
+    background-color: rgba(167, 167, 167, 0.486);
+    box-shadow: 1px 0px 10px rgb(221, 221, 221) ;
+    margin-left: -20px;
+    padding: 0 4% 5% 4% !important;
+}
+
 .top-box {
     background-color: rgba(255, 255, 255, 0.993);
     width: 120% !important;
@@ -220,6 +250,9 @@ a.nav-link:hover {
 
 .padder3 {
     height: 30px;
+}
+.padder4 {
+    height: 220px;
 }
 
 .footer {
@@ -440,4 +473,9 @@ textarea {
         margin-right: 20%;
 
     }
+    .wrap3 {
+        box-shadow: none;
+        background-color: white;
+    }
+
   }
