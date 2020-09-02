@@ -139,6 +139,8 @@ a.nav-link:hover {
  
 }
 
+
+
 .wrap2 {
     background-color: rgba(211, 211, 211, 0.466);
     box-shadow: 1px 0px 10px rgb(221, 221, 221) ;
@@ -149,7 +151,7 @@ a.nav-link:hover {
 .top-box {
     background-color: rgba(255, 255, 255, 0.993);
     width: 120% !important;
-    box-shadow: 1px 0px 10px grey ;
+    box-shadow: none;
     padding: 2.5% 80% 1% 1%;
     position: relative;
     margin-left: -120px !important;
@@ -359,7 +361,7 @@ textarea {
         text-align: center;
     }
     .work {
-        left: 30px;
+        left: 40px;
     }
     .desktop {
         display: none;
