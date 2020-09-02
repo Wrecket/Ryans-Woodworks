@@ -38,7 +38,7 @@ tow1.addEventListener("mouseout", function() {
 })
 
 tow2.addEventListener("mouseover", function() {
-    switchOn2(8.00, 9.5, 12, 50, tow2);
+    switchOn2(15.00, 9.5, 12, 50, tow2);
 })
 
 tow2.addEventListener("mouseout", function() {

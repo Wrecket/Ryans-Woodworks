@@ -4,6 +4,11 @@
     right: -96px;
     bottom: -160px;
 } */
+html,
+body {
+  height: 100%;
+}
+
 .bio-wrap {
     margin-top: 10%;
 }
@@ -27,6 +32,7 @@
     margin-top: -25px;
 
 }
+
 
 .thumb-wrap {
     height: 200px;
@@ -149,8 +155,17 @@ a.nav-link:hover {
     color: rgb(190, 148, 68)!important;
 }
 
+.navbar-nav {
+    z-index: 100;
+}
+
 .nav-link {
     font-family: 'Patua One', cursive !important;
+    z-index: 9999999 !important;
+}
+
+.front-logo-box {
+    z-index: 1
 }
 
 .top-class {
@@ -172,10 +187,13 @@ a.nav-link:hover {
  
 }
 
+#sticky-footer {
+    flex-shrink: none;
+  }
 
 
 .wrap2 {
-    background-color: rgba(211, 211, 211, 0.466);
+    background-color: rgba(167, 167, 167, 0.486);
     box-shadow: 1px 0px 10px rgb(221, 221, 221) ;
     margin-left: -20px;
     padding: 0 4% 5% 4% !important;
@@ -420,5 +438,6 @@ textarea {
 
     .minsol {
         margin-right: 20%;
+
     }
   }
