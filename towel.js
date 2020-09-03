@@ -6,7 +6,7 @@ const tow1 = document.querySelector(".tow1");
 const tow2 = document.querySelector(".tow2");
 
 function switchOn1(cost, height, weight, length, classname) {
-    price.innerHTML=`£${cost}`;
+    price.innerHTML=`Price: £${cost}`;
     dimensions.innerHTML=`<span class='font'>Dimensions:</span> <br>Height:${height}cm <br>Weight:${weight}cm <br>Length:${length}cm`;
     classname.classList.remove("fader");
 }
@@ -18,7 +18,7 @@ function switchoff1(classname) {
 }
 
 function switchOn2(cost, height, weight, length, classname) {
-    price2.innerHTML=`£${cost}`;
+    price2.innerHTML=`Price: £${cost}`;
     dimensions2.innerHTML=`<span class='font'>Dimensions:</span> <br>Height:${height}cm <br>Weight:${weight}cm <br>Length:${length}cm`;
     classname.classList.remove("fader");
 }
