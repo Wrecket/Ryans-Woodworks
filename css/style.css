@@ -8,11 +8,20 @@ html,
 body {
   height: 100%;
 }
+.hoverline:hover {
+    text-decoration: underline;
+}
 
 .relative {
     position: relative;
 }
 
+.cont-logo {
+    width: 150px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
 .hammer {
     position: absolute;
     width: 50px;
@@ -56,6 +65,10 @@ body {
 .cont-det {
     list-style-type: none !important;
     color: rgb(190, 148, 68)
+}
+
+.cont-wrap {
+    background-color: white;
 }
 
 .thumb-wrap {
@@ -230,6 +243,11 @@ a.nav-link:hover {
     padding: 0 4% 5% 4% !important;
 }
 
+.wood-bg {
+    background-image: url("../img/wood.png");
+    background-size: repeat;
+}
+
 .top-box {
     background-color: rgba(255, 255, 255, 0.993);
     width: 120% !important;
@@ -295,6 +313,13 @@ a.nav-link:hover {
 }
 
 .col1-wrap {
+    background-color: rgb(248, 248, 248);
+    padding: 5% 2%;
+
+    box-shadow: 1px 10px 10px grey ;
+}
+
+.cont-wrap {
     background-color: rgb(248, 248, 248);
     padding: 5% 2%;
 
@@ -477,6 +502,9 @@ textarea {
     .wrap3 {
         box-shadow: none;
         background-color: white;
+    }
+    .cont-logo {
+        width: 30px;
     }
 
   }
