@@ -101,7 +101,10 @@ a:hover {
 .kitchen-desc {
     margin-bottom: 8%;
 }
-
+.trustpilot-widget {
+    position: absolute;
+    right: 0;
+}
 .prod-desc span {
     font-size: 3rem;
 }
@@ -218,10 +221,38 @@ a.nav-link:hover {
 }
 
 /* containers */
+.review-head {
+    background-color: rgba(255, 255, 255, 0.993);
+    padding: 2.5% 80% 1% 1%;
+    margin-bottom: -50px;
+}
+
 .black-pad {
     background-color: black;
     height: 30px;
  
+}
+.reviews-wrap {
+    height: 100vh;
+}
+
+.reviews-box {
+    background-image: url("../img/wood.png");
+    padding: 5% 5% 15% 5%;
+    min-height: 80vh;
+    height: auto;
+    box-shadow: 1px 0px 10px rgb(92, 92, 92) ;
+    position: relative;
+}
+
+
+.hider {
+    overflow: hidden;
+}
+
+.positioner {
+    position: absolute;
+    bottom: 0 !important;
 }
 
 #sticky-footer {
@@ -295,7 +326,9 @@ a.nav-link:hover {
 .carousel-wrap {
     width: 100% !important;
 }
-
+iframe {
+    width: 500px;
+}
 .carousel-img {
     width: 200px;
 }
@@ -506,5 +539,10 @@ textarea {
     .cont-logo {
         width: 30px;
     }
-
+    iframe {
+        width: 300px;
+    }
+    .review-head {
+        margin-bottom: -25px;
+    }
   }
